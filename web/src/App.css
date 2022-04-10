@@ -1,0 +1,35 @@
+.main-content {
+    padding: 10px 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.center-loading {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    background: white;
+}
+
+.ant-layout-sider-zero-width-trigger {
+    top: 3px;
+}
+
+.ant-layout-sider.ant-layout-sider-dark {
+    z-index: 999;
+    transition: none;
+}
+
+.main-layout {
+    margin-left: 200px;
+    margin-right: 1px;
+}
+
+.ant-layout-sider-zero-width + .ant-layout {
+    margin-left: 0;
+}
+

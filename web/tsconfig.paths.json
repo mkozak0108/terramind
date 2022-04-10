@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "Components": ["./src/components/index"],
+      "Features": ["./src/features/index"],
+      "Images/*": ["./src/images"],
+      "Services": ["./src/services/index"],
+      "Selectors": ["./src/selectors/index"],
+      "Reducers": ["./src/reducers/index"],
+      "Styles/*": ["./src/styles/*"],
+      "Helpers": ["./src/helpers/index"],
+      "Types": ["./src/types/index"],
+      "Hooks": ["./src/hooks/index"],
+      "Consts": ["./src/consts/index"],
+      "Providers": ["./src/providers/index"]
+    }
+  }
+}
